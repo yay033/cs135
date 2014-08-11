@@ -1,5 +1,7 @@
 ErrorDocument 404 /404.html
-AuthName "/var/www/"
-AuthType Basic
-AuthUserFile /var/www/.htpasswd
-require valid-user
+ErrorDocument 403 /403.html
+#AuthName "/var/www/"
+#AuthType Basic
+#AuthUserFile /var/www/.htpasswd
+#require valid-user
+AddOutputFilterByType DEFLATE text/html text/plain text/xml
