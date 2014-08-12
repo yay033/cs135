@@ -6,6 +6,6 @@ sudo chmod 644 /var/www/.htpasswd
 
 sudo cp -rf html/html /var/www/
 
-sudo cp -rf httpd/apache2.conf /ect/apache2/apache2.conf
+sudo cp -rf httpd/apache2.conf /etc/apache2/apache2.conf
 
 sudo service apache2 restart
